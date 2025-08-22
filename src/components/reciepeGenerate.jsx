@@ -14,6 +14,7 @@ export default function RecipeTable() {
 
 // generate new recipe
 const handleGenerate = async () => {
+setLoading(true); // stop loader
   try {
     await axios.post(
       "/api/Aireciepe",
