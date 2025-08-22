@@ -108,11 +108,9 @@ function Form({ title }) {
                   />
                 </div>
 
-            <button 
-  type="button" 
-  className="btn btn-primary w-100" 
-  onClick={() => window.location.href = '/login'}
->
+ <button 
+  type="submit" 
+  className="btn btn-primary w-100">
   Sign Up
 </button>
 
