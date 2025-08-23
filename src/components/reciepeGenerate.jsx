@@ -39,7 +39,7 @@ setLoading(true); // stop loader
  // fetch all recipes
 const fetchRecipes = async () => {
   try {
-    const res = await axios.get("/api/getAllRecipes", { withCredentials: true });
+    const res = await axios.get("https://edcba7fc-c004-4b3b-bd3d-b81f09e98080-00-24crlninme5mr.sisko.replit.dev/api/getAllRecipes", { withCredentials: true });
     setRecipes(res.data);
   } catch (err) {
     if (err.response && err.response.status === 401) {
