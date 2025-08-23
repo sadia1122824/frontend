@@ -23,7 +23,7 @@ function Form({ title }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/api/Signup", formData);
+      await axios.post("https://edcba7fc-c004-4b3b-bd3d-b81f09e98080-00-24crlninme5mr.sisko.replit.dev/api/Signup", formData);
       setSuccess("✅ Signup successful! Redirecting...");
       setError("");
 
