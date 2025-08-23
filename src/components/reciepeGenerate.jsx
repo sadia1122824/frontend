@@ -17,7 +17,7 @@ const handleGenerate = async () => {
 setLoading(true); // stop loader
   try {
     await axios.post(
-      "/api/Aireciepe",
+      "https://edcba7fc-c004-4b3b-bd3d-b81f09e98080-00-24crlninme5mr.sisko.replit.dev/api/Aireciepe",
       { name: recipeName },
       { withCredentials: true }
     );
