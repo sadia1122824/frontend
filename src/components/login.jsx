@@ -18,7 +18,7 @@ function LoginForm({ title }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("/api/login", formData, {
+      const res = await axios.post("https://edcba7fc-c004-4b3b-bd3d-b81f09e98080-00-24crlninme5mr.sisko.replit.dev/api/login", formData, {
         withCredentials: true,
       });
       if (res.status === 200) {
