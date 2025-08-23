@@ -6,7 +6,7 @@ export default function Header() {
 
 const handleLogout = async () => {
   try {
-    await fetch("/api/logout", { // ✅ full URL likho local ke liye
+    await fetch("https://edcba7fc-c004-4b3b-bd3d-b81f09e98080-00-24crlninme5mr.sisko.replit.dev/api/logout", { // ✅ full URL likho local ke liye
       method: "POST",
       credentials: "include", // cookie bhejne ke liye zaroori
     });
