@@ -26,7 +26,7 @@ const handleLogout = async () => {
     >
       <div className="container">
         {/* Logo */}
-        <Link className="navbar-brand d-flex align-items-center" to="/">
+        <Link className="navbar-brand d-flex align-items-center" to="/reciepe">
           <img
             src="https://e7.pngegg.com/pngimages/415/27/png-clipart-fruit-logo-food-recipe-business-seasoning-ingredients-natural-foods-dried-fruit.png"
             alt="Recipe Logo"
