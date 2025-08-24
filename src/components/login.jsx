@@ -86,7 +86,7 @@ function LoginForm({ title }) {
               </form>
 
               <p className="text-center mt-3 text-muted">
-                Don't have an account? <a href="/signup">Sign Up</a>
+                Don't have an account? <a href="/">Sign Up</a>
               </p>
             </div>
           </div>
