@@ -29,15 +29,16 @@ import LoginForm from "./components/login.jsx";
 // ]);
 
 const router = createBrowserRouter([
-  { path: "signup", element: <Form title="Sign Up" /> },
-  { path: "login", element: <LoginForm title="Login" /> },
   {
     path: "/",
     element: <App />,
     children: [
+      { index: true, element: <Navigate to="/signup" /> }, // default redirect
       { path: "recipes", element: <RecipeGenerator /> }
     ]
-  }
+  },
+  { path: "signup", element: <Form title="Sign Up" /> },
+  { path: "login", element: <LoginForm title="Login" /> }
 ]);
 
 createRoot(document.getElementById("root")).render(
