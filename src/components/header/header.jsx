@@ -64,7 +64,7 @@ const handleLogout = async () => {
               </Link>
             </li>
             <li className="nav-item ms-lg-3">
-              <Link className="btn btn-light text-danger fw-bold" to="/signup">
+              <Link className="btn btn-light text-danger fw-bold" to="/">
                 Sign Up
               </Link>
             </li>
