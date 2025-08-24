@@ -37,7 +37,7 @@ const router = createBrowserRouter([
       { path: "recipes", element: <RecipeGenerator /> }
     ]
   },
-  { path: "signup", element: <Form title="Sign Up" /> },
+  { path: "/", element: <Form title="Sign Up" /> },
   { path: "login", element: <LoginForm title="Login" /> }
 ]);
 
