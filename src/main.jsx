@@ -32,10 +32,10 @@ import LoginForm from "./components/login.jsx";
 
 const router = createBrowserRouter([
   // Default: / par open ho → redirect to signup
-  { path: "/", element: <Navigate to="/signup" /> },
+  
 
   // Signup & Login pages without header/footer
-  { path: "signup", element: <Form title="Sign Up" /> },
+  { path: "/", element: <Form title="Sign Up" /> },
   { path: "login", element: <LoginForm title="Login" /> },
 
   // Pages with header/footer
